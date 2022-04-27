@@ -10,7 +10,6 @@ body {
 	font-family: "Raleway", Sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
-h1,
 h2,
 h3,
 h4,
@@ -21,6 +20,13 @@ h6 {
 	font-style: normal;
 	font-family: "Raleway", Sans-serif;
 	color: #4A4A4A;
+}
+h1{
+	font-family: algerian;
+	font-size:150px;
+}
+h3 {
+	text-align: center
 }
 p {
 	font-family: 'Raleway', sans-serif;
@@ -37,7 +43,7 @@ a {
     color: #4A4A4A;	
 }
 a:hover, a:focus, a:active, a.active {
-	color: #fec503;
+	color: #039afe;
 }
 a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
@@ -232,6 +238,10 @@ header {
 	letter-spacing: 0.1px;
 	margin-bottom: 30px;
 }
+.blog-image{
+	width:80%; 
+	margin-left: 110px; 
+}
 /*- Sidebar -*/
 .sidebar-title {
 	background-color: #2B2B2B;
@@ -405,3 +415,49 @@ footer .footer-bottom {
     transition: all .7s ease-in-out;
     overflow: auto;
 }*/
+
+/*Partie Contact*/
+/*Boutton nom*/
+input[type="name"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+/*Boutton enregistrer*/
+input[type="submit"] {
+  background-color: turquoise;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*lorsque que curseur pointe sur enregistrer*/
+input[type="submit"]:hover {
+  background-color: green;
+}
+
+.container-contact {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+  }
+
+.titre-contact {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.commentaire-contact {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
