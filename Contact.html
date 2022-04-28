@@ -77,7 +77,7 @@
 		</nav>
 
 		<div class="container">
-		<header>
+		<header style="text-align:center">
 			<h1>
 				<a href= "https://paris-zone.github.io/Contact.html" title="Contact" rel="Contact">Contact</a>
 				</h1>
@@ -100,10 +100,11 @@
 							</div>
 <br>
 <br>
- <div class="container-contact">
+ <div class="container-fluid contact">
             <form action="">
                 <p> <b>Selectionner votre genre:</b></p>
-
+				<br>
+				<br>
                 <div>
                   <input type="radio" id="genre" name="genre" value="Homme"
                          <checked>
@@ -130,6 +131,7 @@
 
 <label for="country">Pays</label>
 <select>
+	<option value= "" disabled>Choisissez votre Pays</option>
     <option value="France">France</option>
     <option value="Canada">Canada</option>
     <option value="Congo">Congo</option>
@@ -138,16 +140,19 @@
     <option value="Suisse">Suisse</option>
 	<option value="Haiti">Haiti</option>
 	<option value="Algérie">Algérie</option>
-	<option value="Australie">Suisse</option>
+	<option value="Australie">Australie</option>
 	<option value="USA">États Unis</option>
 	<option value="Maurice">Maurice</option>
 	<option value="Madagascar">Madagascar</option>
 	<option value="Tunisie">Tunisie</option>
 	<option value="Sénégal">Sénégal</option>
+	<option value="Brésil">Brésil</option>
 </select>
 <br>
 <div>
     <p><b>Veuillez saisir vos numéros de téléphone : </b></p>
+	<br>
+	<br>
     <span class="areaDiv">
       <input id="areaNo" name="areaNo" type="tel" required
              placeholder="Code régional" pattern="[0-9]{3}"
@@ -167,6 +172,8 @@
       <span class="validity"></span>
     </span>
   </div>
+  <br>
+  <br>
   <br>
   <label for="insta">Instagram :</label>
   <input type="name" placeholder="Votre pseudo Instagram.."/>

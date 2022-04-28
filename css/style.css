@@ -23,14 +23,16 @@ h6 {
 }
 h1{
 	font-family: algerian;
-	font-size:150px;
+	font-size:9.5vw;
 }
+
 h3 {
-	text-align: center
+	text-align: center;
+	font-size:3.9vw;
 }
 p {
 	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
+	font-size: 0.7vw;
 	font-weight: 400;
 	line-height: 24px;
 	color: #000;
@@ -157,12 +159,12 @@ header {
 .blog-post .blog-post-body h2 {
 	margin: 0;
 	padding: 15px 0px 20px;
-	font-size: 41px;
-	line-height: 49px;
+	font-size: 4.3vw;
+	line-height: 80px;
 }
 .blog-post .blog-post-body p {
 	text-align: justify;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 300;
 	line-height: 30px;
 	color: #000;
@@ -444,12 +446,11 @@ input[type="submit"]:hover {
   background-color: green;
 }
 
-.container-contact {
+.contact {
 	border-radius: 5px;
 	background-color: #f2f2f2;
 	padding: 20px;
-	margin-left: 200px;
-	margin-right: 200px;
+
   }
 
 .titre-contact {
