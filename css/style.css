@@ -224,8 +224,8 @@ header {
 	transition: all 0.2s ease-out;
 }
 .blog-post .read-more a:hover {
-	background-color: #fed136;
-	border-color: #fed136;
+	background-color: #FFD700;
+	border-color: #febf36;
 	color: #fff;
 }
 .blog-post .blog-post-text {
@@ -334,7 +334,7 @@ header {
 	transition: all 0.2s ease-out;
 }
 .widget-post h2 a:hover {
-	color: #969696;
+	color: #180db4;
 }
 .widget-post .post-meta {
 	margin-top: 5px;
@@ -348,7 +348,7 @@ header {
 	margin-right: 8px;
 }
 .widget-post .post-meta span a {
-	color: #B1B1B1;
+	color: #a82626;
 }
 .section-title {
 	margin: 0 0 45px 0;
